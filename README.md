@@ -31,10 +31,8 @@ Emergency response agencies need to efficiently allocate resources and prioritiz
 
 ## Findings
 
-Common types of emergencies reported:
 
-To identify common types of emergencies reported, you can analyze the title column. Count the occurrences of different titles to find the most common types.
-Top 5 towns and zip codes for 911 calls:
+###Top 5 towns and zip codes for 911 calls:
 
 ![Capture1](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/2d2cd275-d85a-44ff-8f79-3df3e79bc7a8)
 
@@ -43,16 +41,9 @@ Top 5 towns and zip codes for 911 calls:
 Group the data by town and zip code, then count the number of 911 calls for each group. Sort the results to find the top 5 towns and zip codes with the highest number of calls.
 Number of unique title codes:
 
-You can create a new column based on the patterns in the title column, categorizing calls into broader reasons such as medical emergencies, traffic accidents, or fire incidents.
-Most common reason for a 911 call:
-
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/57309836-1ba2-4791-9fd7-08666379f75a)
 
-
-After creating the new column, you can analyze it to find the most common reason for a 911 call.
-
-Change the datatype of timestamp to datetime:
-
+#33 Change the datatype of timestamp to datetime:
 Convert the timeStamp column to datetime datatype for easier manipulation of date and time information.
 Creating new columns related to datetime:
 Extract additional features like month, year, day of the week, and hour from the timeStamp column to gain insights into the temporal patterns of 911 calls.
@@ -67,6 +58,10 @@ Simple plot indicating the count of calls per month and day of week:
 
 Plot the count of calls per month to visualize the trend of 911 calls over time. Similarly, analyze calls vs. day of the week and calls vs. months.
 Number of calls fluctuation by year and separate category reason for call by year:
+
+![Capture4](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/157b327b-f65c-41bf-b960-0b5f841645a2)
+
+
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/1e7d4c07-328b-40f9-add0-dd5b7f7fb52d)
 
 
