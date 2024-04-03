@@ -35,19 +35,12 @@ Common types of emergencies reported:
 
 To identify common types of emergencies reported, you can analyze the title column. Count the occurrences of different titles to find the most common types.
 Top 5 towns and zip codes for 911 calls:
+
 ![Capture1](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/2d2cd275-d85a-44ff-8f79-3df3e79bc7a8)
 
 
 Group the data by town and zip code, then count the number of 911 calls for each group. Sort the results to find the top 5 towns and zip codes with the highest number of calls.
 Number of unique title codes:
-
-Check the number of unique values in the title column to determine how many unique title codes are there.
-Creating new features - Reasons for calls:
-
-** In the titles column there are "Reasons/Departments" specified before the title code. These are EMS, Fire, and Traffic. Use .apply() with a custom lambda expression to create a new column called "Reason" that contains this string value.**
-
-
-*For example, if the title column value is EMS: BACK PAINS/INJURY , the Reason column value would be EMS. *
 
 You can create a new column based on the patterns in the title column, categorizing calls into broader reasons such as medical emergencies, traffic accidents, or fire incidents.
 Most common reason for a 911 call:
