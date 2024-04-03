@@ -32,7 +32,7 @@ Emergency response agencies need to efficiently allocate resources and prioritiz
 ## Findings
 
 
-###Top 5 towns and zip codes for 911 calls:
+### Top 5 towns and zip codes for 911 calls:
 
 ![Capture1](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/2d2cd275-d85a-44ff-8f79-3df3e79bc7a8)
 
@@ -43,21 +43,21 @@ Number of unique title codes:
 
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/57309836-1ba2-4791-9fd7-08666379f75a)
 
-#33 Change the datatype of timestamp to datetime:
-Convert the timeStamp column to datetime datatype for easier manipulation of date and time information.
-Creating new columns related to datetime:
+###  Change the datatype of timestamp to datetime:
+- Creating new columns related to datetime
+- Convert the timeStamp column to datetime datatype for easier manipulation of date and time information.:
 Extract additional features like month, year, day of the week, and hour from the timeStamp column to gain insights into the temporal patterns of 911 calls.
+
 ![Capture4](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/28c00f68-3a2e-4fcd-8cbd-b892c568b6d8)
 
-
-Simple plot indicating the count of calls per month and day of week:
-![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/464430b9-ebda-49a5-84a2-aa2a02ef7eba)
-![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/5b97ae50-61b4-4788-b4e8-04ba8b12163c)
-
+-  Simple plot indicating the count of calls per month and day of week:
+   ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/464430b9-ebda-49a5-84a2-aa2a02ef7eba)
+   ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/5b97ae50-61b4-4788-b4e8-04ba8b12163c)
 
 
-Plot the count of calls per month to visualize the trend of 911 calls over time. Similarly, analyze calls vs. day of the week and calls vs. months.
-Number of calls fluctuation by year and separate category reason for call by year:
+
+- Plot the count of calls per month to visualize the trend of 911 calls over time. Similarly, analyze calls vs. day of the week and calls vs. months.
+ Number of calls fluctuation by year and separate category reason for call by year:
 
 ![Capture4](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/157b327b-f65c-41bf-b960-0b5f841645a2)
 
@@ -65,8 +65,7 @@ Number of calls fluctuation by year and separate category reason for call by yea
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/1e7d4c07-328b-40f9-add0-dd5b7f7fb52d)
 
 
-Analyze the number of calls over the years and break it down by the reason for the call to identify any trends or fluctuations.
-Number of calls by day of the week and hour:
+## Analyze the number of calls over the years and break it down by the reason for the call to identify any trends or fluctuations.Number of calls by day of the week and hour:
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/ee5df551-4f74-485b-b419-fbfb09ac7756)
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/abbaa26e-2796-4d1e-8a68-6a8552fcf5c3)
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/c702af2f-ac12-4bbf-a8aa-4a9d8c64526d)
