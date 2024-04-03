@@ -1,7 +1,5 @@
 # 911-Calls-Data-Analysis
 
-# 911 Calls Data Analysis
-
 ## Project Description
 This project involves analyzing a dataset of 911 emergency calls to extract insights into emergency response services. The dataset comprises information such as the type of emergency, location, timestamp, and other pertinent details associated with each call. Through this analysis, we aim to discern patterns, trends, and factors influencing emergency calls to enhance emergency response systems and services.
 
