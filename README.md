@@ -38,13 +38,14 @@ Top 5 towns and zip codes for 911 calls:
 
 ![Capture1](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/2d2cd275-d85a-44ff-8f79-3df3e79bc7a8)
 
+![Capture3](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/4e07a731-2468-42b8-8158-d532915b504e)
 
 Group the data by town and zip code, then count the number of 911 calls for each group. Sort the results to find the top 5 towns and zip codes with the highest number of calls.
 Number of unique title codes:
 
 You can create a new column based on the patterns in the title column, categorizing calls into broader reasons such as medical emergencies, traffic accidents, or fire incidents.
 Most common reason for a 911 call:
-![Capture3](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/4e07a731-2468-42b8-8158-d532915b504e)
+
 ![image](https://github.com/ABhishek213490/911-Calls-Data-Analysis/assets/161066148/57309836-1ba2-4791-9fd7-08666379f75a)
 
 
